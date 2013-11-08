@@ -1,3 +1,8 @@
+DROP DATABASE `testdrive`;
+CREATE DATABASE IF NOT EXISTS `testdrive` CHARACTER SET =utf8 COLLATE=utf8_general_ci;
+
+USE `testdrive`;
+
 CREATE TABLE tbl_lookup
 (
 	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
